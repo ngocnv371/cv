@@ -72,24 +72,35 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Team Lead, Full Stack Developer
-        time: Jul 2019 - Present
+      - role: Team Lead
+        time: Jul 2020 - Present
         company: AltSource Software, Ho Chi Minh City, Vietnam
         details: |
-          Do a lot of stuff here.
-            - Work with Product Owners to define PRD
+            - Lead a team
+            - Work with Product Owners to refine the requirements
             - Mentor junior developers
             - Remove friction for team members
-            - Setup CI/CD with Azure
+            - Setup CI/CD with Azure DevOps
             - Scaffold new projects
-            - Create coding standard
+            - Create coding standard document
+            - Review code
+      - role: Team Lead, Full Stack Developer
+        time: Jul 2019 - Jul 2020
+        company: AltSource Software, Ho Chi Minh City, Vietnam
+        details: |
+            - Groom tickets and provide technical guidance
+            - Develop maintainable features
+            - Write documentation
+            - Mentor junior developers
+            - Setup CI/CD with Azure DevOps
+            - Scaffold new projects
             - Review code
       - role: Full Stack Developer
         time: Jul 2016 - Jul 2019
         company: Mantu Group, Ho Chi Minh City, Vietnam
         details: |
-          Do a lot of stuff here.
             - Work with Product Owners to groom new features
+            - Take ownership of 3 applications of the ERP
             - Mentor junior developers
             - Scaffold new projects
             - Review code
@@ -98,21 +109,18 @@ experiences:
         time: Sep 2015 - Jul 2016
         company: FPT Software, Ho Chi Minh City, Vietnam
         details: |
-          Do a lot of stuff here.
-            - Groom new features
-            - Develop features
+            - Develop new features
+            - Maintain legacy apps
       - role: Full Stack Developer
         time: May 2014 - Sep 2015
         company: Global CyberSoft, Ho Chi Minh City, Vietnam
         details: |
-          Do a lot of stuff here.
-            - Groom new features
-            - Develop features
+            - Develop new features
+            - Maintain legacy apps
       - role: Game Developer
         time: Oct 2012 - May 2014
         company: Gameloft, Ho Chi Minh City, Vietnam
         details: |
-          Do a lot of stuff here.
             - Implement mobile compatibility enhancers
             - Fix bugs
 
