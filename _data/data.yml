@@ -117,12 +117,59 @@ experiences:
       details: |
         - Develop new features
         - Maintain legacy apps
+      projects:
+        - name: Ramsoft Rapid Results
+          url: https://www.ramsoft.com/products/zero-footprint-viewer/
+          time: May 2014 - Sep 2015
+          description: |
+            Develop an application to assist the physicians in their medical practices.
+            The app was developed using Sencha Touch (a JavaScript framework). The app
+            had provided rapid access to historical medical scanning images, patients 
+            medical history and doctor to doctor collaboration.
+          outcome: | 
+            I worked on a few different areas of the app, but the most interesting is
+            the scans viewer. It connected to a few data endpoints, fetch & cache the relevant images,
+            a few items ech time and show it to the users.
+            The application has been released and available world-wide.
+          toolset: 
+            - Sencha Touch
+            - JavaScript
     - role: Game Developer
       time: Oct 2012 - May 2014
       company: Gameloft, Ho Chi Minh City, Vietnam
       details: |
         - Implement mobile compatibility enhancers
         - Fix bugs
+      projects:
+        - name: Despicable Me
+          time: Jan 2013 - May 2014
+          description: |
+            Port the game which was developed in C++ & Flash for iOS platform to Android.
+            The game was about an immortal yellow banana monster which run around
+            and wreak havoc around the world.
+          outcome: | 
+            Much similar to the previous project, I worked on handling the system events.
+            The game is available world-wide in Play Store.
+          toolset: 
+            - C++
+            - Flash
+        - name: Asphalt 7 GE
+          time: Oct 2012 - Mar 2013
+          description: |
+            Port the game which was developed in C++ & Flash for iOS platform to Android.
+            The game was about illegal street racers. The game let the players select 
+            a wide range of sponsored cars to enter various races to earn more fake cash.
+            The players then can spend those cash to satisfy their vanity and narcicism by
+            doing paint jobs, engine modifications and get BIGGER cars.
+          outcome: | 
+            I worked on handling the hardware interruption when the user pressed
+            the home button, or switch the app to inactive state. When that happen
+            the game must release all graphic resources and recreate them from cache
+            the next time the game became active.
+            The game is available world-wide in Play Store.
+          toolset: 
+            - C++
+            - Flash
 
 skills:
   title: Skills &amp; Proficiency
