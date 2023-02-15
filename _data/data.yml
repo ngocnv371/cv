@@ -105,12 +105,66 @@ experiences:
         - Scaffold new projects
         - Review code
         - Integrate with other apps in the ERP
+      projects:
+        - name: TFS Data Sync Service
+          time: Jul 2018 - Aug 2019
+          description:
+          outcome: 
+          toolset: 
+            - SQL Server
+        - name: STEP2
+          time: Jul 2017 - Aug 2019
+          description:
+          outcome: 
+          toolset: 
+            - SQL Server
+        - name: aBook v2
+          time: Jan 2019 - Jul 2019
+          description:
+          outcome: 
+          toolset: 
+            - SQL Server
+        - name: HouseOfApps v2
+          time: Jan 2016 - Oct 2018
+          description: |
+            The app provided ERP applications catalouge, quick access to applications' overview together
+            wit development and deployment status.
+            The previous version of the app was developed with MVC 5, the new version is developed with
+            React and ASP .Net backend.
+          outcome: |
+            I architected the project and presented it to the director. The finalized plan was simplified
+            in a few areas, since the ecosystem was not ready for Micro Services just yet.
+            I designed and develop both the front end and back end of the project. Most of the legacy components
+            can't be reused since it's a different architecture and the previous implementation hadn't followed
+            MVC guidelines properly.
+            The product was released and launched internally, replacing the previous version.
+          toolset: 
+            - SQL Server
+            - ASP .NET
+            - React
     - role: Full Stack Developer
       time: Sep 2015 - Jul 2016
       company: FPT Software, Ho Chi Minh City, Vietnam
       details: |
-        - Develop new features
+        - Upgrading existing app to the newer technology
         - Maintain legacy apps
+      projects:
+        - name: American Airlines Internal Network
+          time: Sep 2015 - Jun 2016
+          description: |
+            Maintaining the legacy super app. This is an outsourcing project, so we're only working on
+            a few certain parts of the ecosystem.
+            The app provided functionalities to network-wide softwares installation and tracking. The
+            admin could monitor the installed softwares on all POS machines and keep them up to date.
+          outcome: | 
+            I worked on rebuilding a few features with ASP .Net MVC 5, since the super app was built
+            with the first generation ASP. I thought upgrading to MVC provided limited benefits since
+            the underlying infrastructres were still stuck in stone age. But that was the job.
+            The application is only available internally.
+          toolset: 
+            - SQL Server
+            - ASP .Net
+            - jQuery
     - role: Full Stack Developer
       time: May 2014 - Sep 2015
       company: Global CyberSoft, Ho Chi Minh City, Vietnam
