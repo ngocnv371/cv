@@ -43,6 +43,8 @@ Changes *_data/data.yml* will be visible after a while.
 
 ### Local machine
 
+* Install ruby 3.1.3-1
+
 * Get the repo into your machine 
 ```bash
 git clone https://github.com/sharu725/online-cv.git
