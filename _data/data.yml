@@ -84,7 +84,61 @@ experiences:
         - Scaffold new projects
         - Create coding standard document
         - Review code
-    - role: Team Lead, Full Stack Developer
+      projects:
+        - name: My Fertility Health
+          time: Jan 2022 - present
+          description: |
+            The app provide events tracking and fertile windows prediction for users. Also it allows medical documents
+            upload and a few medical 'journeys'.
+          outcome: |
+            I designed the API as the hub for serving the content to the mobile app. The medications list can get updated
+            remotely.
+            The mobile app can function normally in offline mode and the user generated content will be synced with server
+            once then regain network connection.
+            The mobile app has subscription payment scheme where the user pay for monthly or annually.
+            The project hasn't been released yet.
+          toolset:
+            - SQL Server
+            - ASP .NET
+            - Reactjs
+            - Ionic
+        - name: Arcadia
+          time: Jan 2021 - present
+          description: |
+            The app provide customer's requests portal, estimates & proposal generation. The mobile app also
+            provide field worker's offline access to the assigned job.
+            The request form was built in Vuejs, the form then get embedded in the client's existing WordPress site
+            as an iframe.
+            The admin site was also built in Vuejs as front end and the back end was built with ASP .NET
+            In this development phase, we're to build a mobile app for field agents.
+          outcome:
+            The mobile app was built with Ionic and Reactjs which will sync all assigned jobs to the device
+            to provide offline access to field agents. Any data the agents input during offline mode will be kept
+            and sync back to the server when they have a connection again.
+            The project was released and available internally. 
+          toolset:
+            - SQL Server
+            - ASP .NET
+            - Vuejs
+            - Reactjs
+            - Ionic
+        - name: PAWP
+          time: Jan 2020 - Aug 2022
+          description: |
+            The client was a door manufacturer company.
+            The app provide a management web for back office workers to record customer's requests and generate quotes.
+            The requests consist of configuration for doors, which will be approved by the head architect before moving
+            to the factory floor for production.
+          outcome: |
+            We built the website in Angularjs, it keeps an open SignalR connection with the backend to update door's 
+            production status in real time.
+            The back end was built in ASP .Net 
+            The project hasn't been released yet.
+          toolset:
+            - SQL Server
+            - ASP .Net
+            - Angularjs
+    - role: Full Stack Developer
       time: Jul 2019 - Jul 2020
       company: AltSource Software, Ho Chi Minh City, Vietnam
       details: |
@@ -95,6 +149,54 @@ experiences:
         - Setup CI/CD with Azure DevOps
         - Scaffold new projects
         - Review code
+      projects:
+        - name: Brighter Path
+          url: caulacbonusinh.org
+          time: Jan 2021 - Dec 2021
+          description: |
+            The app provides an online learning platform catered to school girls in small communities. It aims to equip them
+            with necessary skills to excel in the modern world.
+          outcome: |
+            We implemented the lesson presentation and quizzes in Vuejs, as an experimental move toward adopting a new technology.
+            The result wasn't so bad. It performs just as well as Reactjs.
+            We designed the server to handle video and images transformation, but was later scraped since the client wants
+            to cut cost. In the end, we let them use unlisted YouTube videos and put raw images on their web server.
+            The product was released locally in Vietnam.
+          toolset:
+            - PostgreSQL
+            - Vuejs
+        - name: Carlson Testing
+          time: Oct 2021 - Oct 2022
+          description: |
+            The app provide a management interface for the office workers to assign inspection requests to their agents.
+            It also provide a place for the customers to request inspection services.
+            The mobile app provide the agents to submit inspection report while working offline onsite.
+          outcome: |
+            We built the app in 3 parts, the API sits on the database, acts as the middleman for the mobile app and the website.
+            The mobile app sync assigned entities to the device everytime the user login, then function normally in offline
+            mode.
+            The project was released and used internally by the company.
+          toolset:
+            - Vuejs
+            - SQL Server
+            - ASP .NET
+            - Swift
+        - name: Compass
+          time: Feb 2019 - Aug 2020
+          description: |
+            The app provide remote configuration and monitor activities on a smart home's satellite devices. The devices
+            periodically push update signals to a centralized data service. The app the watch for the changes and do 
+            aggregation on the data to provide updates.
+          outcome: |
+            We setup the data service to be a minimal API which does nothing but receiving incoming requests and push the
+            payload to the database. On each successful operation, a signal is emmitted via RabbitMQ.
+            The app listen to the signals then either response to emergency messages or pool them to do aggregation later.
+            The frontend component (built in Vuejs) is only for displaying the calculated values in real time.
+            The app wasn't completed yet when I left the project.
+          toolset: 
+            - SQL Server
+            - ASP .NET
+            - Vuejs
     - role: Full Stack Developer
       time: Jul 2016 - Jul 2019
       company: Mantu Group, Ho Chi Minh City, Vietnam
