@@ -1,0 +1,41 @@
+{% assign experiences = site.data.data.experiences %} {% if experiences %}
+<section class="section experiences-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-archive fa-stack-1x fa-inverse"></i>
+    </span>
+    Projects
+  </h2>
+  {% for experience in experiences.info %}
+  <div class="item">
+    {% if experience.projects %}
+    <div class="projects">
+      {% for project in experience.projects %}
+      <div class="project">
+        <h3>{{ project.name}}</h3>
+        {% if project.url %}
+        <h5>{{ project.url}}</h5>
+        {% endif %}
+        <h6>{{ project.time}}</h6>
+        <h5>Description</h5>
+        <p>{{ project.description }}</p>
+        <h5>Outcome</h5>
+        <p>{{ project.outcome }}</p>
+        <h5>Toolset</h5>
+        <ul>
+          {% for tool in project.toolset %}
+          <li>{{tool}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    <!--//projects-->
+    {% endif %}
+  </div>
+  <!--//item-->
+  {% endfor %}
+</section>
+<!--//section-->
+{% endif %}
