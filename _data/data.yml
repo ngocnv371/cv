@@ -50,20 +50,10 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Driven by a belief that technology has the power to liberate humanity from manual labor 
-    and unleash the full potential of creativity, I have dedicated my studies to the field of computer science. 
-    With a deep-seated conviction that software can transform the world, 
-    I possess a passion for creating innovative solutions that push the boundaries of what is possible.
-
-    As an accomplished full stack developer and team leader, 
-    I bring a wealth of experience in implementing end-to-end solutions for consumer-facing web applications. 
-    With a strong track record of success in both agency and client-facing environments, 
-    I excel at analyzing customer needs and developing user-friendly solutions that exceed expectations.
-
-    By leveraging my technical expertise and creativity, 
-    I am able to develop cutting-edge web applications that integrate seamlessly with a variety of technical stacks. 
-    If you are seeking a skilled and passionate developer dedicated to delivering transformative solutions, 
-    I am confident that I can exceed your expectations.
+    I believe that computers are the key to unlock new possibilities for humanity, 
+    freeing us from manual labor and enabling us to pursue the arts. 
+    As a full-stack developer with over ten years of experience, 
+    I am passionate about helping companies leverage technology to innovate and improve their services.
 education:
   title: Education
   info:
@@ -77,14 +67,17 @@ experiences:
       time: Jul 2020 - Present
       company: AltSource Software, Ho Chi Minh City, Vietnam
       details: |
-        - Lead a team
-        - Work with Product Owners to refine the requirements
-        - Mentor junior developers
-        - Remove friction for team members
-        - Setup CI/CD with Azure DevOps
-        - Scaffold new projects
-        - Create coding standard document
-        - Review code
+        - Led a team of developers as a Team Leader.
+        - Worked with Product Owners to refine project requirements for efficient delivery.
+        - Mentored junior developers while providing a collaborative work environment.
+        - Removed friction points for team members to ensure smooth project development.
+        - Oversaw the setup of CI/CD with Azure DevOps for continuous integration and delivery.
+        - Scaffolded new projects to ensure efficient development.
+        - Created a coding standards document to maintain best practices in programming.
+        - Conducted code reviews to ensure high-quality code was maintained throughout the development lifecycle.
+        
+        Overall, my leadership and oversight ensured that the team consistently delivered high-quality products 
+        that met or exceeded expectations while adhering to established coding best practices.
       projects:
         - name: My Fertility Health
           time: Jan 2022 - present
@@ -143,13 +136,16 @@ experiences:
       time: Jul 2019 - Jul 2020
       company: AltSource Software, Ho Chi Minh City, Vietnam
       details: |
-        - Groom tickets and provide technical guidance
-        - Develop maintainable features
-        - Write documentation
-        - Mentor junior developers
-        - Setup CI/CD with Azure DevOps
-        - Scaffold new projects
-        - Review code
+        - Groomed tickets and provided technical guidance in my role as a Senior Developer.
+        - Developed maintainable features to ensure the codebase was easily modifiable and extensible.
+        - Created clear documentation to aid future development and to mentor junior developers.
+        - Set up CI/CD with Azure DevOps to streamline the development process.
+        - Scaffolded new projects to ensure efficient development.
+        - Conducted code reviews to ensure coding best practices were followed throughout the development process.
+
+        As a Senior Developer, I worked closely with my team to deliver high-quality software by providing guidance, 
+        mentorship, and oversight. The use of CI/CD, coding standards documentation, and code reviews ensured that 
+        projects were streamlined and efficient, while maintaining adherence to established best practices.
       projects:
         - name: Brighter Path
           url: https://caulacbonusinh.org
@@ -202,12 +198,12 @@ experiences:
       time: Jul 2016 - Jul 2019
       company: Mantu Group, Ho Chi Minh City, Vietnam
       details: |
-        - Work with Product Owners to groom new features
-        - Take ownership of 3 applications of the ERP
-        - Mentor junior developers
-        - Scaffold new projects
-        - Review code
-        - Integrate with other apps in the ERP
+        - Collaborated with Product Owners to groom new features and plan development.
+        - Took ownership of 3 key applications within the ERP, taking primary responsibility for their maintenance and upkeep.
+        - Mentored junior developers, cultivating their skills and encouraging growth.
+        - Scaffolded new projects to ensure efficient development.
+        - Reviewed code to maintain coding best practices and alignment with established standards.
+        - Integrated new and existing apps within the ERP to streamline processes and expand functionality
       projects:
         - name: TFS Data Sync Service
           time: Jul 2018 - Aug 2019
