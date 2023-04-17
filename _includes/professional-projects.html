@@ -19,9 +19,9 @@
         {% endif %}
         <h6>{{ project.time}}</h6>
         <h5>Description</h5>
-        <p>{{ project.description }}</p>
+        <p>{{ project.description | markdownify }}</p>
         <h5>Outcome</h5>
-        <p>{{ project.outcome }}</p>
+        <p>{{ project.outcome | markdownify }}</p>
         <h5>Toolset</h5>
         <ul>
           {% for tool in project.toolset %}
