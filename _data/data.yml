@@ -432,6 +432,9 @@ skills:
     - name: .NET Core, C#
       level: 95%
 
+    - name: Python
+      level: 55%
+
     - name: SQL
       level: 70%
 
