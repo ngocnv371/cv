@@ -412,14 +412,5 @@ skills:
     - name: iOS
       level: 60%
 
-projects:
-    title: Side Projects
-    intro: >
-      Here's some side projects I have made in my free time.
-    items:
-      - title: Battle
-        link: "http://github.com/ngocnv371/autobattle"
-        tagline: "A text based dungeon delver game."
-
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
