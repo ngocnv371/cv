@@ -50,10 +50,11 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    I believe that computers are the key to unlock new possibilities for humanity, 
-    freeing us from manual labor and enabling us to pursue the arts. 
-    As a full-stack developer with over ten years of experience, 
-    I am passionate about helping companies leverage technology to innovate and improve their services.
+    I am a seasoned full-stack developer with over ten years of experience in leveraging technology 
+    to drive innovation and enhance services. My passion lies in the boundless potential of technology to 
+    liberate humanity from menial tasks and enable us to focus on creative pursuits. 
+    I am driven to help companies unlock this potential by developing cutting-edge software solutions 
+    that deliver exceptional value to users and businesses alike.
 education:
   title: Education
   info:
@@ -63,8 +64,35 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: Full Stack Developer
+      time: Feb 2023 - Present
+      company: AltSource Software, Ho Chi Minh City, Vietnam
+      details: |
+        - Groomed tickets and provided technical guidance in my role as a Senior Developer.
+        - Developed maintainable features to ensure the codebase was easily modifiable and extensible.
+        - Mentored junior developers while providing a collaborative work environment.
+        - Removed friction points for team members to ensure smooth project development.
+        - Setup of CI/CD with Azure DevOps for continuous integration and delivery.
+        - Scaffolded new projects to ensure efficient development.
+        - Conducted code reviews to ensure high-quality code was maintained throughout the development lifecycle.
+        
+        Switched back to Developer role due to a wave of layoffs and dropped projects, the company reduced in size.
+        At this point I can contribute more as a developer.
+      projects:
+        - name: Redmond
+          time: Feb 2023 - present
+          description: |
+            The app provide an interface for warehouses management. The administrative staffs can use it track inventory,
+            and all the packages going through any warehouses.
+          outcome: |
+            I worked on the scaffolding of the project. But we're still in a ramping up phase. This project is far
+            from completion.
+          toolset: |
+            - SQL Server
+            - ASP .NET
+            - Reactjs, Redux
     - role: Team Lead
-      time: Jul 2020 - Present
+      time: Jul 2020 - Feb 2023
       company: AltSource Software, Ho Chi Minh City, Vietnam
       details: |
         - Led a team of developers as a Team Leader.
@@ -80,7 +108,7 @@ experiences:
         that met or exceeded expectations while adhering to established coding best practices.
       projects:
         - name: My Fertility Health
-          time: Jan 2022 - present
+          time: Jan 2022 - Feb 2023
           description: |
             The app provide events tracking and fertile windows prediction for users. Also it allows medical documents
             upload and a few medical 'journeys'.
@@ -97,7 +125,7 @@ experiences:
             - Reactjs
             - Ionic
         - name: Arcadia
-          time: Jan 2021 - present
+          time: Jan 2021 - Dec 2022
           description: |
             The app provide customer's requests portal, estimates & proposal generation. The mobile app also
             provide field worker's offline access to the assigned job.
